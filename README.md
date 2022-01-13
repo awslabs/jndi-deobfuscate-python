@@ -29,6 +29,10 @@ Generally speaking, attackers attempt to exploit recent CVEs by sending data tha
 - Output: `${jndi:ldap//192.0.2.1}`
 
 
+## Installation:
+`pip install jndi_deobfuscate`
+
+
 ## Usage:
 ### Process a text file for obfuscated JNDI strings:
 `./jndi_deobfuscate.py -f FILENAME_HERE.txt`

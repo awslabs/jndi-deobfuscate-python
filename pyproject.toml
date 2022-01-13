@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "jndi_deobfuscate"
+version = "0.0.1"
+description = "Deobfuscates JNDI strings that are used to exploit systems vulnerable to recent Log4J vulnerabilities"
+authors = ["jinnandjuice"]
+license = "Apache License 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+importlib-metadata = "^4.10.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+importlib-metadata = "^4.10.0"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
